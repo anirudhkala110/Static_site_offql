@@ -173,7 +173,7 @@ const Frontpage = () => {
                     <div className='dboth my-5 justify-content-between align-items-center'>
                         <div className='left m-1 mb-3' style={{ maxWidth: "550px" }}>
                             <span className=''>
-                                <div className='leads_mag fs-5 px-2 d-flex align-items-center' style={{width:"50px" }}>
+                                <div className='leads_mag fs-5 px-2 d-flex align-items-center' style={{maxWidth:"370px",width:"auto" }}>
                                     <div className='' style={{ width: "20px", background: "#d3dbe3", height: "20px" }}></div>
                                     Leads Management
                                 </div>
