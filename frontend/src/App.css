@@ -1,0 +1,160 @@
+.frontpage {
+  background: linear-gradient(108deg, #FEFEFE 16.64%, #407BFF 101.15%);
+  background-image: url('./Component/Upper.jpg');
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  background-size: cover;
+  /* max-height: 1034px; */
+  flex-shrink: 0;
+  min-height: 100vh;
+  color: white;
+  /* overflow-x: none; */
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  max-width: 1258px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.logo_facebook {
+  color: #407BFF;
+  font-family: Inter;
+  cursor: pointer;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Products {
+  color: #0A0B3B;
+  font-family: Inter;
+  cursor: pointer;
+}
+
+.solutions,
+.Industries,
+.Pricing,
+.Resource {
+  color: #A4A4A4;
+  cursor: pointer;
+  font-family: Inter;
+}
+
+svg {
+  stroke-width: 2px;
+  stroke: #407BFF;
+  position: absolute;
+  z-index: 1;
+  margin-top: -4%;
+}
+
+.container {
+  z-index: 10;
+}
+
+.leads_mag {
+  min-width: 320px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 10px;
+  background: linear-gradient(270deg, #004FFF -3.75%, #B5CCFF 108.58%);
+  /* 23.7px */
+  letter-spacing: 5.5px;
+  text-transform: uppercase;
+}
+
+.dboth{
+  display: flex;
+}
+
+.right {
+  border-radius: 50px;
+}
+
+.next-page{
+  background-image: url('./Component/lower.jpg');
+  /* font-size: calc(10px + 2vmin); */
+  width: 100vw;
+  background-size: cover;
+  flex-shrink: 0;
+  /* background-repeat: no-repeat; */
+}
+
+.dless{
+  display: none;
+}
+.dmore{
+  display: block;
+}
+.cord{
+position: absolute;
+}
+@media only screen and (min-width:2501px) {
+  .cord{
+    position: absolute;
+    margin-left: -17%;
+    height: 76vh;
+    width: 725px;
+    margin-top: 8%;
+  }
+}
+@media only screen and (max-width:2500px) {
+  .cord{
+    position: absolute;
+    margin-left: -17%;
+    height: 76vh;
+    width: 725px;
+    margin-top: 8%;
+  }
+}
+@media only screen and (max-width:2200px) {
+  .cord{
+    position: absolute;
+    margin-left: -15%;
+    height: 132vh;
+    width: 529px;
+    margin-top: 8%;
+  }
+}
+@media only screen and (max-width:1600px) {
+  .cord{
+    position: absolute;
+    margin-left: -17%;
+    height: 170vh;
+    width: 423px;
+    margin-top: 15%;
+  }
+}
+@media only screen and (max-width:1100px) {
+  .cord{
+    position: absolute;
+    margin-left: -18%;
+    height: 235vh;
+    width: 322px;
+    margin-top: 21%;
+  }
+}
+@media only screen and (max-width:1000px) {
+  .cord{
+    display: none;
+  }
+  .dmore{
+    display: none !important;
+  }
+  .dless{
+    display: block !important;
+  }
+  .dboth{
+    display: block;
+  }
+}
